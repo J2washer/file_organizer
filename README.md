@@ -1,5 +1,5 @@
 
-# 🗂️ File Organizer Script
+# 🗂️ File Organizer 
 
 This Python script automatically organizes files in your **Downloads** folder into categorized subfolders based on file type (Images, Documents, Music, Videos, Archives, and Others).  
 It's designed to work on **Windows, macOS, and Linux** with no manual path editing required.
