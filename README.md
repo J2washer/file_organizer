@@ -69,25 +69,6 @@ The script will organize the default directory, or you can customize it.
 
 ---
 
-## 🛠️ Customization
-
-Edit the script to set your target directory and file type categories:
-
-```python
-# organiser.py
-
-target_folder = "/path/to/your/folder"
-file_types = {
-    "Images": [".jpg", ".jpeg", ".png", ".gif"],
-    "Documents": [".pdf", ".docx", ".txt"],
-    "Videos": [".mp4", ".mov", ".avi"],
-    "Archives": [".zip", ".tar", ".gz"],
-    # Add more categories as needed
-}
-```
-
----
-
 ## 📄 License
 
 This project is licensed under the **MIT License**.
