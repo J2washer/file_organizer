@@ -1,83 +1,57 @@
 
-# 📁 File Organizer
+# 🗂️ File Organizer Script
 
-**Automatically sort and organize your messy folders with ease!**  
-A Python-based tool that categorizes files into folders based on their file types—perfect for tidying up directories like Downloads or Desktop.
+This Python script automatically organizes files in your **Downloads** folder into categorized subfolders based on file type (Images, Documents, Music, Videos, Archives, and Others).  
+It's designed to work on **Windows, macOS, and Linux** with no manual path editing required.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Python Version](https://img.shields.io/badge/Python-3.6%2B-blue.svg)](https://www.python.org/downloads/)
+## 📂 What it does
 
----
+- Automatically detects your system's `Downloads` folder
+- Sorts files into folders like:
+  - `Images/` (.jpg, .png, etc.)
+  - `Documents/` (.pdf, .docx, .txt, etc.)
+  - `Videos/` (.mp4, .mov, etc.)
+  - `Music/` (.mp3, .wav, etc.)
+  - `Archives/` (.zip, .tar, etc.)
+  - `Others/` for anything uncategorized
 
-## ✨ Features
+## 🛠️ How to Use
 
-- ✅ Organizes files into folders by type (Images, Documents, Videos, etc.)
-- 🔧 Fully customizable file-type categories
-- ⚙️ Lightweight and fast
-- 🖥️ Works on Windows, macOS, and Linux
+1. **Clone the repo:**
 
----
+   ```bash
+   git clone https://github.com/your-username/file-organizer.git
+   cd file-organizer
+    ````
 
-## 🚀 Getting Started
+2. **Run the script:**
 
-### 📦 Prerequisites
+   ```bash
+   python organizer.py
+   ```
 
-Make sure Python 3 is installed. To check:
+   > Use `python3` if required on your system.
 
-```bash
-python --version
-````
+3. Sit back and watch your `Downloads` folder get organized!
 
-### 📥 Installation
+## 📦 Requirements
 
-1. **Clone this repository:**
+This script uses only built-in Python libraries (`os`, `shutil`, and `pathlib`). No extra installation is needed.
 
-```bash
-git clone https://github.com/J2washer/file_organizer.git
-cd file_organizer
-```
+## ✅ Features
 
-2. **(Optional) Create and activate a virtual environment:**
+* Cross-platform support
+* Automatically creates folders if they don't exist
+* Sorts files by extension
+* Categorizes uncaught files into an `Others` folder
 
-```bash
-# Linux/macOS
-python -m venv venv
-source venv/bin/activate
+## ✨ Future Improvements (Pull Requests Welcome)
 
-# Windows
-python -m venv venv
-venv\Scripts\activate
-```
-
-3. **Install dependencies:**
-
-```bash
-pip install -r requirements.txt
-```
+* Add subfolder scanning
+* Support for user-defined custom categories
+* Scheduled auto-runs (e.g. daily)
 
 ---
 
-## ⚡ Usage
-
-Simply run the script:
-
-```bash
-python organiser.py
-```
-
-The script will organize the default directory, or you can customize it.
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-See the [LICENSE](LICENSE) file for more details.
-
----
-
-## 🤝 Contributing
-
-Feel free to fork the repo, submit pull requests, or open issues!
-Any feedback or improvements are welcome.
+Made with 💻 by J2washer
 
