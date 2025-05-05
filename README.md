@@ -20,7 +20,7 @@ It's designed to work on **Windows, macOS, and Linux** with no manual path editi
 1. **Clone the repo:**
 
    ```bash
-   git clone https://github.com/your-username/file-organizer.git
+   git clone https://github.com/J2washer/file-organizer.git
    cd file-organizer
     ````
 
