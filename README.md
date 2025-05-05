@@ -21,7 +21,7 @@ It's designed to work on **Windows, macOS, and Linux** with no manual path editi
 
    ```bash
    git clone https://github.com/J2washer/file-organizer.git
-   cd file-organizer
+   cd file_organizer
     ````
 
 2. **Run the script:**
